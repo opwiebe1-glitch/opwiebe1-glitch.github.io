@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Effect of Compound and Accessory Volume on Strength Gain</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>The Effect of Compound and Accessory Volume on Strength Gain</h1>
+  <p>By: Owen Wiebe</p>
+</header>
+
+<main>
+  <h2>Background</h2>
+  <p>Strength training is the most common means of increasing strength in the skeletomuscular system. Accessory exercises are exercises whose purpose is to strengthen and hypertrophy specific muscles with the intent to increase a compound lift. For example, leg extensions are performed to increase the size and strength of the quadriceps muscle group, increasing squatting performance. Although the effect of accessory and compound volume on strength gain has been studied, individual variations in dose response ratio are not yet fully understood. To garner a greater understanding of my own rate of strength change due to alterations in volume, I conducted a three year experiment during which I recorded and varied squatting and quad accessory volume, then used graphical analysis techniques to determine the effectiveness of varying levels of volume.</p>
+
+  <h2>Methods</h2>
+  <p>I participated in strength training over the course of three years, during which time I recorded all of my training on a google document. In an attempt to determine the optimal volume of exercise specific and accessory work, I selected the squat to focus on and study, because its accessory volume was the most varied over my training history.</p>
+
+  <h3>Conversion from Google Docs to sheets</h3>
+  <p>It was necessary to convert written text in my training log to solely numbers in a table of all of my lifts over the course of three years. I did so, taking the averages of any varying rep ranges to one decimal place in order to have only one number of reps for any given day.</p>
+
+  <h3>Conversion from sets and reps to total volume</h3>
+  <p>The units used for total volume were total reps. To calculate the total reps for each day I multiplied the number of sets by the number of reps for both squats and accessory volume.</p>
+
+  <h3>Conversion from submaximal weights to one rep maximum (1RM) calculation</h3>
+  <p>During my training period I was not testing my 1RM frequently enough to use my true one rep maximum as a means of tracking my progress, so I used to following chart, dividing the weight lifting by the percentages next to its respective number of sets and reps to calculate the 1rm potential of each workout:</p>
+
+  <table>
+    <tr>
+      <th>Sets</th>
+      <th>%1RM</th>
+      <th>Reps</th>
+      <th>%1RM</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>100</td>
+      <td>1</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>98.9</td>
+      <td>2</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>96.7</td>
+      <td>3</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>95</td>
+      <td>4</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>93</td>
+      <td>5</td>
+      <td>87</td>
+    </tr>
+  </table>
+
+  <h3>Selection of data points</h3>
+  <p>In the interest of recovery, not every session was maximum effort, which means they were not all optimal for calculating my one rep maximum. Therefore, I separated 600 days worth of data into roughly 30 day segments. From here I selected the day with the greatest calculated 1RM based on its sets and reps for each month, and repeated for all of the months to gain my data points.</p>
+
+  <h2>Analysis</h2>
+  <p>To determine the effectiveness of different amounts of volume on increasing squat strength I approximated the instantaneous derivative of change in squatting weight over time at each volume point, and plotted them with volume in the x axis and change in squatting weight over time in the y.</p>
+
+  <h2>Results</h2>
+
+  <h3>The effects of squatting volume on progressing the squat 1RM:</h3>
+  <p>Over the course of my training, my squatting volume varied from 31.9 total reps in a month to 168 reps per month, as shown in the graph below:</p>
+  <img src="path-to-squat-volume-graph.jpg" alt="Graph showing squat volume vs 1RM">
+
+  <p>A linear curve fit was applied using vernier graphical analysis and the r value was calculated to be 0.04573, suggesting an extremely weak linear association between squatting volume and the increase in squatting weight in a given month. This implies that within the given bounds, total reps of squat in a given month do not impact the amount that squat increases.</p>
+
+  <h3>The effects of accessory volume on progressing the squat 1RM:</h3>
+  <p>Over the course of my training, my squatting accessory volume varied from 0 total reps in a month to 204 reps per month, as shown in the graph below:</p>
+  <img src="path-to-accessory-volume-graph.jpg" alt="Graph showing accessory volume vs 1RM">
+
+  <p>A linear curve fit was applied using vernier graphical analysis and the r value was calculated to be 0.2296, suggesting a weak linear association between squatting accessory volume and the increase in squatting weight in a given month. This implies that within the given bounds, total reps of squat accessories in a given month have a weak positive impact on increase in squatting weight.</p>
+
+  <h3>The effects of time on progressing the squat 1RM:</h3>
+  <p>Over the course of my entire training cycle, my calculated 1RM on the squat shifted from 280lbs to 364lbs, as seen in the graph below:</p>
+  <img src="path-to-time-vs-1rm-graph.jpg" alt="Graph showing time vs squat 1RM">
+
+  <p>A linear curve fit was applied using vernier graphical analysis and the r value was calculated to be 0.9484, suggesting a strong linear association between days of training and calculated Squat 1RM.</p>
+
+  <h2>Conclusion</h2>
+  <p>While total squatting volume is not an accurate predictor of the change in calculated 1RM over a given period of time, total squat accessory volume has a weak positive linear association with an increase in squatting calculated 1RM over time. This suggests that when given a choice between increasing squat volume and increasing accessory volume with the goal of increasing my total 1RM, it would be prudent to utilize my training economy to participate in more accessory work.</p>
+
+  <p>Given the limitations of this experiment, my being its only participant and my being a student which causes immense shifts in extra-weightroom stress and sleep quality, it is reasonable to assume that stronger correlations between the volumes of respective types of exercises and change in calculated 1RM over time may be found in larger sample sizes of young untrained men. The strongest correlation I was able to find was that between squat 1RM time, which suggests that consistency and time spent training are the most important factors when increasing 1RM strength.</p>
